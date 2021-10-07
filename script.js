@@ -116,7 +116,7 @@ class Queen extends Character{
         this.type = weaponType in weaponTypes? weaponType : undefined
     }
     attack(){
-        super.attack()
+        super.attack() // Calling the attack function in Character object (known as super)
         return `I am the ${this.name} of ${this.type}, now bow dow to me`
     } 
 }
